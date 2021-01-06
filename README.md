@@ -18,7 +18,7 @@ $ npm i piral-cli -g
 ### Build Piral Instance
 Please build web-shell first since following package in 'package.json' is depend on the output of it.
 
-\* *we will use npm registry to store it to solve this issue*
+\* *we will use npm registry to store it to solve this issue later*
 
 ```json
 "devDependencies": {
@@ -29,7 +29,7 @@ Please build web-shell first since following package in 'package.json' is depend
 
 ### Build Pilet
 ```bash
-$ npm update --force
+$ npm i
 $ pilet build
 ```
 
